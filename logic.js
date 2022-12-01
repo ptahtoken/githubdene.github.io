@@ -93,6 +93,7 @@ var controls = {
                     .replace('$target', r.target) // if r.target is not available, use r.title
                     .replace('$title', r.title)
                     .replace('$link', r.html_url)
+                    .replace('$tag2', r.title)
                     .replace('$tag', r.title);
 
                 // TODO: highlight the APPROVED issues' labels
