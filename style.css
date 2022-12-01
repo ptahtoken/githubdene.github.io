@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap");
 body {
   background: black;
   color: white;
@@ -48,7 +48,7 @@ body .container .footer {
 
 body {
   margin: 0;
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Roboto Condensed', monospace;
   overflow-x: hidden;
 }
 
@@ -91,7 +91,7 @@ body .container .search .query input {
   margin: 0;
   padding: 0;
   border: 0;
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Roboto Condensed', monospace;
   outline: none;
 }
 
