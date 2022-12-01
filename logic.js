@@ -1,4 +1,4 @@
-var searchResultFormat = '<tr><td><a href="$link" target="_blank">$target</a></td><td align="left">$title</td></tr>';
+var searchResultFormat = '<tr><td><a href="$link" target="_blank">$target</a></td><td align="left">$title</td><td>$tag<td>$tag</tr>';
 var totalLimit = 750;
 
 var controls = {
