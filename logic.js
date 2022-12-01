@@ -1,4 +1,4 @@
-var searchResultFormat = '<tr><td><a href="$link" target="_blank">$target</a></td><td align="left">$title</td><td>$tag<td>$tag</tr>';
+var searchResultFormat = '<tr><td><a href="$link" target="_blank">$target</a></td><td align="left">$title</td><td>$tag</td><td>$tag</tr>';
 var totalLimit = 750;
 
 var controls = {
@@ -93,6 +93,7 @@ var controls = {
                     .replace('$target', r.target) // if r.target is not available, use r.title
                     .replace('$title', r.title)
                     .replace('$link', r.html_url)
+                    .replace('$tag', labelString)
                     .replace('$tag', labelString);
 
                 // TODO: highlight the APPROVED issues' labels
